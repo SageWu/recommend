@@ -1,0 +1,16 @@
+{
+	"name": "recommend",
+	"version": "1.0.0",
+	"description": "implement of recommendation algorithm",
+	"main": "./build/Release/recommend",
+	"scripts": {
+		"build": "node-gyp rebuild",
+		"build:dev": "node-gyp rebuild --debug"
+	},
+	"gypfile": true,
+	"author": "SageWu",
+	"license": "ISC",
+	"dependencies": {
+		"nan": "^2.13.2"
+	}
+}

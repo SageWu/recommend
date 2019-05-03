@@ -1,0 +1,1 @@
+cmd_Release/obj.target/recommend.node := g++ -shared -pthread -rdynamic -m64  -Wl,-soname=recommend.node -o Release/obj.target/recommend.node -Wl,--start-group Release/obj.target/recommend/recommend-node.o -Wl,--end-group /home/sagewu/Documents/nodejs/recommend/src/lib/libNLPIR.so /home/sagewu/Documents/nodejs/recommend/src/lib/libKeyExtract.so
